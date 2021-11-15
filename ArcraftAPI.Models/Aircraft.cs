@@ -16,9 +16,9 @@ namespace ArcraftAPI.Models
         [MaxLength(128)]
         public string Model { get; set; }
         public string Registration { get; set; }
-        [MaxLength(128)]
+        [MaxLength(255)]
         public string Location { get; set; }
         public string PhotoPath { get; set; }
-        public DateTime DateTime { get; set; }
+        public DateTime Date { get; set; }
     }
 }
