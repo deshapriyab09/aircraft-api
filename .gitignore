@@ -386,6 +386,3 @@ FodyWeavers.xsd
 # JetBrains Rider
 .idea/
 *.sln.iml
-
-StaticFiles/
-/Aircraft API/Aircraft API/AircraftAPI/AircraftAPI/StaticFiles/

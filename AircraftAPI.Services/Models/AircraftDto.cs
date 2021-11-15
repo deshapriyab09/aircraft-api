@@ -14,7 +14,7 @@ namespace AircraftAPI.Services.Models
         public string Registration { get; set; }
         public string Location { get; set; }
         public string PhotoPath { get; set; }
-        public DateTime DateTime { get; set; }
+        public DateTime Date { get; set; }
 
     }
 }

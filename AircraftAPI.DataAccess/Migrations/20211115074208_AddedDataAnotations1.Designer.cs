@@ -4,14 +4,16 @@ using AircraftAPI.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace AircraftAPI.DataAccess.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20211115074208_AddedDataAnotations1")]
+    partial class AddedDataAnotations1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -56,7 +58,7 @@ namespace AircraftAPI.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            Date = new DateTime(2021, 11, 15, 13, 17, 35, 550, DateTimeKind.Local).AddTicks(1275),
+                            Date = new DateTime(2021, 11, 15, 13, 12, 7, 961, DateTimeKind.Local).AddTicks(1442),
                             Location = "London Gatwick",
                             Make = "Boeing",
                             Model = "777-300ER",
@@ -65,7 +67,7 @@ namespace AircraftAPI.DataAccess.Migrations
                         new
                         {
                             Id = 2,
-                            Date = new DateTime(2021, 11, 15, 13, 17, 35, 550, DateTimeKind.Local).AddTicks(6191),
+                            Date = new DateTime(2021, 11, 15, 13, 12, 7, 961, DateTimeKind.Local).AddTicks(6458),
                             Location = "London Gatwick1",
                             Make = "Boeing1",
                             Model = "777-300ER1",

@@ -26,8 +26,8 @@ namespace AircraftAPI.DataAccess
         {
             modelBuilder.Entity<Aircraft>().HasData(new Aircraft[]
             {
-                new Aircraft {Id = 1, Make = "Boeing",Model="777-300ER",Registration="G-RNAC",Location="London Gatwick",DateTime=DateTime.Now},
-                new Aircraft {Id = 2, Make = "Boeing1",Model="777-300ER1",Registration="G-RNAC1",Location="London Gatwick1",DateTime=DateTime.Now},
+                new Aircraft {Id = 1, Make = "Boeing",Model="777-300ER",Registration="G-RNAC",Location="London Gatwick",Date=DateTime.Now},
+                new Aircraft {Id = 2, Make = "Boeing1",Model="777-300ER1",Registration="G-RNAC1",Location="London Gatwick1",Date=DateTime.Now},
             });
         }
     }
